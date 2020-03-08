@@ -1,20 +1,29 @@
 ## Welcome to GitHub Pages
 
-This page is a collection of the mobile tools and resources that we've found helpful.
+This page is a collection of the mobile tools and resources that we've found helpful...we'll continue to add more as we discover them!
 
-### Markdown
+**#Upcoming Talks & Presentations**
 
-#Upcoming Talks & Presentations
+**#Presentation Materials**
 
-#Presentation Materials
+BSIDES NOVA
 
-#Virtual Machines
+**#Virtual Machines**
 
-#Tools
+**#Tools**
 
-#Present
+Free Emulator (only works with Virtual Box): https://www.genymotion.com/fun-zone/
+Free VM: https://appsec-labs.com/appuse-pro/
+Android Studio: https://developer.android.com/studio
+JD-GUI: https://github.com/java-decompiler/jd-gui
+JADX: https://github.com/skylot/jadx
+Dex2Jar: https://github.com/pxb1988/dex2jar
+ClassyShark: https://github.com/google/android-classyshark
+Drozer: https://labs.f-secure.com/tools/drozer/
 
+Malware Samples: https://www.hybrid-analysis.com/login
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+**Resources**
+Forensics: https://smarterforensics.com/
+Intel and Malware Analysis Blogs: https://blog.lookout.com/
+Beginner's Guide to Reversing Mobile Malware: https://www.youtube.com/watch?v=7SRfk321I5o
