@@ -1,6 +1,6 @@
 ## Welcome to Cyber Penguins Collection of Mobile Resources
 
-This page is a collection of the mobile tools and resources that we've found helpful...we'll continue to add more as we discover them!
+This page is a collection of the mobile tools and resources that we've found helpful...we'll continue to add more as we discover them! (It's the early days, so there is a lot more content to come)
 
 **#Upcoming Talks & Presentations**
 
