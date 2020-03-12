@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Cyber Penguins Collection of Mobile Resources
 
 This page is a collection of the mobile tools and resources that we've found helpful...we'll continue to add more as we discover them!
 
