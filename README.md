@@ -1,4 +1,4 @@
-<img width="616" alt="Screen Shot 2020-03-16 at 8 48 40 AM" src="https://user-images.githubusercontent.com/61938680/76761830-7e35c680-6766-11ea-9ad7-4149e8b4b9a3.png">
+<img width="616" alt="Android" src="https://user-images.githubusercontent.com/61938680/76761830-7e35c680-6766-11ea-9ad7-4149e8b4b9a3.png">
 
 ## Welcome to Cyber Penguins Collection of Mobile Resources
 
