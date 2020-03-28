@@ -1,0 +1,48 @@
+Here’s a bash script to help with analysis and campaign clustering of bulk APKs: (worthwhile if if you’re analyzing more than a single APK at a time)
+
+Prerequisites:
+ 
+1. Make sure your virtual machine has apktool installed 
+2. Create a directory named ~/Desktop/APK and extract all the files into that directory. 
+3. cd into that directory and run the script.
+4. If you want more functionality or have ideas/recommendations to make this script better - just leave a comment.
+
+Feel free to test it out - download this zip file (of legit malware) and drop it in your virtual machine. 
+Password: infected123
+
+THE SCRIPT
+********
+
+#!/bin/bash
+
+#This adds the .apk file extension - especially helpful if you’re doing a bulk download from VirusTotal. Comment out if you don’t need it.
+
+for file in * ; do mv $file $file.apk; done
+
+#This decompiles all the apps using apktool (This will take a little while, so grab a coffee while you let it run)
+
+for file in *.apk; do apktool d $file; done
+
+#The grep command will output the file path and matching string. (usually your string will be buried in the small code or manifest file). Some malware families (like Anubis) will hard code the banking checks into the app. We don’t always get that lucky, but it’s worth a quick check. These are checking for SunTrust, BB&T and Truist injects.  Just replace my strings with your bank or org. You can also check for specific permissions, etc this way too. But, I have a better way of analyzing the manifest files later in the script. 
+
+grep -ri suntrust
+grep -rl bbt
+grep -rl truist
+ 
+#Permissions Summary - this is good for campaign clustering and to identify outliers.
+
+find . -name 'AndroidManifest.xml' -exec grep -i 'uses-permission android:name=' {} \; | sed 's/<uses-permission android:name="android.permission.//g' | sed 's/"\/>//g' |grep -oe '^.*\S' | sort | uniq -c | sort -n
+
+# Quick check for dodgy permissions, intents and strings. Results return file path that contains the APK with the permissions. Keep in mind this will likely be the hash value if you did a dump from VirusTotal
+
+#This finds apps that request the ‘overlay permission’
+find . -name 'AndroidManifest.xml' -exec grep -il 'SYSTEM_ALERT_WINDOW' {} \;
+
+#This finds apps that check for user activity intent on the phone
+find . -name 'AndroidManifest.xml' -exec grep -il 'USER_PRESENT' {} \;
+
+#This finds apps that check for packages added.
+find . -name 'AndroidManifest.xml' -exec grep -il 'PACKAGE_ADDED' {} \;
+
+#Search for Twitter C2 strings
+grep -r twitter
