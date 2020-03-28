@@ -4,6 +4,10 @@
 
 This page is a collection of the mobile tools and resources that we've found helpful...we'll continue to add more as we discover them! (It's the early days, so there is a lot more content to come)
 
+**#Automating Bulk APK analysis**
+------------------------------------|
+Click here for instructions and a script
+
 **#Upcoming Talks & Presentations**
 ------------------------------------|
 
