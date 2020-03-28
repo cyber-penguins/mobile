@@ -10,6 +10,7 @@ Click here for instructions and a script: https://github.com/cyber-penguins/mobi
 
 **#Upcoming Talks & Presentations**
 ------------------------------------|
+https://www.meetup.com/Washington-DC-Cyber-Security-for-Control-Systems/events/268486968/
 
 **#Presentation Materials**
 ------------------------------------|
