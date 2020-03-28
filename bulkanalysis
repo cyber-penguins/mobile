@@ -1,4 +1,5 @@
-Here’s a bash script to help with analysis and campaign clustering of bulk APKs: (worthwhile if if you’re analyzing more than a single APK at a time)
+Here’s a bash script to help with analysis and campaign clustering of bulk APKs: 
+(worthwhile if if you’re analyzing more than a single APK at a time)
 
 Prerequisites:
  
@@ -10,7 +11,7 @@ Prerequisites:
 Feel free to test it out - download this zip file (of legit malware) and drop it in your virtual machine. 
 Password: infected123
 
-THE SCRIPT
+THE SCRIPT (This is pretty basic and can be expands in so many ways.)
 ********
 
 #!/bin/bash
