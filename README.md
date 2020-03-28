@@ -6,7 +6,7 @@ This page is a collection of the mobile tools and resources that we've found hel
 
 **#Automating Bulk APK analysis**
 ------------------------------------|
-Click here for instructions and a script
+Click here for instructions and a script: https://github.com/cyber-penguins/mobile/blob/master/bulkanalysis
 
 **#Upcoming Talks & Presentations**
 ------------------------------------|
