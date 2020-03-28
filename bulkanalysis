@@ -1,6 +1,11 @@
 Here’s a bash script to help with analysis and campaign clustering of bulk APKs: 
 (worthwhile if if you’re analyzing more than a single APK at a time)
 
+For examples of different apps targeted by Anubis bankbot, check out these screenshots. 
+There are a lot of companies in the list...these are just a couple examples.
+
+https://github.com/cyber-penguins/mobile/blob/master/Screen%20Shot%202020-03-28%20at%2010.12.39%20AM.png
+
 Prerequisites:
  
 1. Make sure your virtual machine has apktool installed 
