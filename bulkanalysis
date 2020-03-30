@@ -32,9 +32,7 @@ for file in *.apk; do apktool d $file; done
 
 #The grep command will output the file path and matching string. (usually your string will be buried in the small code or manifest file). Some malware families (like Anubis) will hard code the banking checks into the app. We don’t always get that lucky, but it’s worth a quick check. These are checking for SunTrust, BB&T and Truist injects.  Just replace my strings with your bank or org. You can also check for specific permissions, etc this way too. But, I have a better way of analyzing the manifest files later in the script. 
 
-grep -ri suntrust
-grep -rl bbt
-grep -rl truist
+grep -ri <your company or string>
  
 #Permissions Summary - this is good for campaign clustering and to identify outliers.
 
