@@ -11,6 +11,7 @@ Click here for instructions and a script: https://github.com/cyber-penguins/mobi
 **#Upcoming Talks & Presentations**
 ------------------------------------|
 https://www.meetup.com/Washington-DC-Cyber-Security-for-Control-Systems/events/268486968/
+Files for download: https://github.com/cyber-penguins/mobile/blob/master/workshop.zip
 
 **#Presentation Materials**
 ------------------------------------|
